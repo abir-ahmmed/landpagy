@@ -1,0 +1,33 @@
+@mixin heading-1{
+    font-size: 70px;
+    line-height: 77px;
+}
+
+@mixin heading-2{
+    font-size: 50px;
+    line-height: 62px;
+}
+
+@mixin heading-3{
+    font-size: 40px;
+    line-height: 48px;
+}
+
+@mixin heading-4{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+@mixin heading-5{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+@mixin heading-6{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+@mixin transition{
+    transition: all 0.3s ease-in-out;
+}

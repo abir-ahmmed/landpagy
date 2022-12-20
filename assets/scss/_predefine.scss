@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::-moz-selection{
+    background: $primary;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection{
+    background: $primary;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection{
+    background: $primary;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #999999;
+    border-radius: 30px;
+}
+
+body{
+    color: $black-550;
+    font-family: $inter;
+    font-weight: 400;
+    font-size: 17px;
+    height: 100%;
+    line-height: 28px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+    color: $dark-text;
+    font-family: $poppins;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: $primary;
+    display: inline-block;
+    text-decoration: none;
+    @include transition;
+    &:hover,
+    &:focus{
+        text-decoration: none;
+        outline: none;
+        color: $primary;
+    }
+}
+
+img,
+picture{
+    max-width: 100%;
+    display: block;
+}
+
+.bg-feta{
+    background-color: #DCFADD;
+}

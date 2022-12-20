@@ -1,0 +1,14 @@
+.btn-red{
+    border-radius: 6px;
+    background-color: $primary;
+    color: $white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 14px 31px;
+    &:hover{
+        background-color: $dark-text;
+        color: $primary;
+    }
+
+}

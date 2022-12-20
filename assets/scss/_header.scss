@@ -1,0 +1,33 @@
+
+
+.header-area{
+    position: relative;
+    z-index: 9999;
+}
+
+.navbar{
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+}
+
+.menu{
+    .nav-item{
+        padding: 45px 0;
+        .nav-link{
+            color: $dark-text;
+            font-weight: 500;
+            padding: 0;
+            &:hover,
+            &.active{
+                color: $primary;
+            }
+        }
+        & + .nav-item{
+            margin-left: 60px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+
+.banner-area{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    .shape{
+        position: absolute;
+        z-index: -1;
+        &:nth-child(1){
+            left: 100px;
+            top: 200px;
+        }
+        &:nth-child(2){
+            left: 300px;
+            bottom: 200px;
+        }
+        &:nth-child(3){
+            right: 300px;
+            top: 400px;
+        }
+        &:nth-child(4){
+            right: 100px;
+            bottom: 200px;
+        }
+    }
+}
+.banner-title{
+    @include heading-2;
+}

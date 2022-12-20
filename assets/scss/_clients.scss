@@ -1,0 +1,17 @@
+.client-text{
+    font-size: 22px;
+    line-height: 36px;
+    span{
+        color: $dark-text;
+    }
+}
+
+.clients-img{
+    width: 20%;
+    opacity: .4;
+    cursor: pointer;
+    @include transition;
+    &:hover{
+        opacity: 1;
+    }
+}

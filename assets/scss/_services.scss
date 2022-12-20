@@ -1,0 +1,28 @@
+.services-title{
+    @include heading-2;
+}
+
+.service-item{
+    img{
+        margin-bottom: 30px;
+    }
+    &-title{
+        @include heading-4;
+        margin-bottom: 20px;
+    }
+
+    &-text{
+        font-size: 15px;
+        line-height: 27px;
+        margin-bottom: 35px;
+    }
+
+    .btn{
+        color: $primary;
+        font-size: 18px;
+        line-height: 50px;
+        i{
+            margin-left: 5px;
+        }
+    }
+}
