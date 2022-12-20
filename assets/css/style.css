@@ -197,6 +197,12 @@ picture {
   line-height: 62px;
 }
 
+.service-item {
+  padding: 50px 40px 46px;
+  background: #ffffff;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
 .service-item img {
   margin-bottom: 30px;
 }
@@ -212,9 +218,20 @@ picture {
 }
 .service-item .btn {
   color: #EC595A;
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: 500;
+  padding: 0;
 }
 .service-item .btn i {
   margin-left: 5px;
+  font-size: 15px;
+}
+.service-item:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.service-item:hover .service-item-title {
+  color: #EC595A;
 }
 
 /*# sourceMappingURL=style.css.map */
