@@ -1,0 +1,21 @@
+.testimonial-area{
+    .testimonial-container{
+        max-width: 1420px;
+        .testimonial-title{
+            @include heading-2;
+        }
+        .testimonial-item{
+            background-color: $white;
+            border-radius: 15px;
+            width: 60%;
+            padding: 50px 40px;
+            box-shadow: 0px 20px 50px 0px #17171714;
+       
+            .item-text{
+                margin-right: 20px;
+                
+            }
+        }
+    }
+
+}
