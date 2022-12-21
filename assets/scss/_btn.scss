@@ -12,3 +12,17 @@
     }
 
 }
+
+.btn-bordered{
+    border: 2px solid $primary;
+    border-radius: 5px;
+    padding: 12.5px 40px;
+    i{
+        font-size: 15px;
+    }
+    &:hover{
+        border-color: $dark-text;
+        background-color: $dark-text;
+        color: $primary;
+    }
+}

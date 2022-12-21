@@ -101,6 +101,10 @@ picture {
   background-color: #DCFADD;
 }
 
+.bg-gray {
+  background-color: #f5f5f7;
+}
+
 .btn-red {
   border-radius: 6px;
   background-color: #EC595A;
@@ -111,6 +115,20 @@ picture {
   padding: 14px 31px;
 }
 .btn-red:hover {
+  background-color: #171717;
+  color: #EC595A;
+}
+
+.btn-bordered {
+  border: 2px solid #EC595A;
+  border-radius: 5px;
+  padding: 12.5px 40px;
+}
+.btn-bordered i {
+  font-size: 15px;
+}
+.btn-bordered:hover {
+  border-color: #171717;
   background-color: #171717;
   color: #EC595A;
 }
@@ -232,6 +250,43 @@ picture {
 }
 .service-item:hover .service-item-title {
   color: #EC595A;
+}
+
+.feature-images {
+  position: relative;
+  z-index: 1;
+}
+.feature-images .shape {
+  position: absolute;
+  z-index: -1;
+}
+.feature-images .shape:nth-child(1) {
+  bottom: 30px;
+  right: 20px;
+}
+.feature-images .shape:nth-child(2) {
+  top: -10px;
+  left: 0px;
+}
+
+.feature-title {
+  font-size: 50px;
+  line-height: 62px;
+  margin-bottom: 10px;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feature-list li {
+  width: 45%;
+  color: #171717;
+}
+.feature-list li i {
+  color: #37bd8a;
+  margin-right: 10px;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
