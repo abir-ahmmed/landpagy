@@ -289,4 +289,60 @@ picture {
   font-size: 15px;
 }
 
+.features-area-2 {
+  overflow: hidden;
+}
+.features-area-2 .features-right {
+  position: relative;
+  z-index: 2;
+  width: 70%;
+  margin: 0 auto;
+}
+.features-area-2 .features-right .shape {
+  position: absolute;
+  z-index: -1;
+}
+.features-area-2 .features-right .shape:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.features-area-2 .features-right .shape:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+.features-area-2 .features-right img {
+  position: absolute;
+  z-index: 1;
+}
+.features-area-2 .features-right .img-1 {
+  left: 0;
+}
+.features-area-2 .features-right .img-2 {
+  right: 0;
+  top: 40px;
+}
+.features-area-2 .features-title {
+  font-size: 50px;
+  line-height: 62px;
+}
+.features-area-2 .features-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.features-area-2 .features-item .item-img {
+  width: 10%;
+}
+.features-area-2 .features-item .item-content {
+  width: 80%;
+}
+.features-area-2 .features-item .item-content .item-title {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.features-area-2 .features-item .item-content .item-text span {
+  color: #EC595A;
+}
+
 /*# sourceMappingURL=style.css.map */
