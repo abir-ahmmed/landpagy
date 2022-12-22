@@ -2,28 +2,45 @@ const swiper = new Swiper('.swiper', {
   // Default parameters
   //  slidesPerView: 2,
   loop:true,
-  spaceBetween: 10,
-  conteredSlides:true,
+  spaceBetween: 30,
+  centeredSlides: true,
   autoplay:{
     delay:2500,
     disableOnInteraction:false,
   },
+  pagination: {
+    el: ".swiper-pagination",
+  },
   // Responsive breakpoints
   breakpoints: {
-    // when window width is >= 320px
-    320: {
-      slidesPerView: 1.5,
-      spaceBetween: 30
+    0: {
+      slidesPerView: 1,
     },
-    // when window width is >= 480px
-    480: {
-      slidesPerView: 1.5,
-      spaceBetween: 30
+    768: {
+      slidesPerView: 1.2,
     },
-    // when window width is >= 640px
-    640: {
+    1024: {
       slidesPerView: 1.5,
-      spaceBetween: 40
-    }
-  }
+    },
+    1200: {
+      slidesPerView: 1.9,
+    },
+  },
 })
+// $(document).ready(function () {
+//   if ($('#billing-testimonial').length) {
+//     const slider = new Swiper('#billing-testimonial', {
+//       loop: true,
+//       pagination: {
+//         el: '.swiper-pagination',
+//         clickable: true,
+//       },
+//       autoplay: {
+//         delay: 2500,
+//         disableOnInteraction: false,
+//       },
+//       spaceBetween: 30,
+//       centeredSlides: true,
+
+//     });
+//   }

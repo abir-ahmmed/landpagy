@@ -1,0 +1,91 @@
+.price-plan-area{
+    .price-box{
+        box-shadow: 0px 20px 50px 0px #0000000D;
+        border-radius: 15px;
+            
+    }
+    .price-plan-item{
+        .price-plan-content{
+            margin-bottom: 65px;
+            width: 70%;
+            .price-subtitle{
+                @include heading-5;
+                text-transform: uppercase;
+                margin-bottom: 35px;
+                font-family: $inter;
+                font-weight: 500;
+                color: $dark-text
+            }
+            .price-title{
+                @include heading-2;
+                margin-bottom: 5px;
+                color: $primary;
+                text-transform: uppercase;
+                span{
+                    display: inline-block;
+                    font-size: 20px;
+                    color:$black-550;
+                    font-weight: 400;
+                    line-height: 1.2;
+                }
+            }
+            .price-list{
+                margin-top: 25px;
+                .disabled{
+                    color: $black-350;
+                    
+                }
+                li{
+                    padding-bottom: 10px;
+                }
+                i{
+                    color: #37bd8a;
+                    padding-right: 15px;
+                }
+            }
+        }
+        .btn-price-plan{
+            color: $primary;
+            border: 2px solid $primary;
+            font-size: 18px;
+            padding: 15px 30px;
+            font-weight: 500;
+            &:hover{
+                background-color: $primary;
+                color: $white;
+            }
+        }
+    }
+    .price-title{
+        @include heading-2;
+    }
+}
+
+.price-plan-item{
+    padding: 45px 75px;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 80%;
+        top: 0;
+        right: 0;
+        background-image: linear-gradient(180deg, #FFFFFF 0%, #C8CCD0 51.56%, #FFFFFF 100%);
+    }
+}
+
+.price-plan-area{
+    .price-box{
+        .col-lg-4{
+            padding: 0;
+            &:last-child{
+                .price-plan-item{
+                    &::after{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

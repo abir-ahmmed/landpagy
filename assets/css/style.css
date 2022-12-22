@@ -352,7 +352,16 @@ picture {
   font-size: 50px;
   line-height: 62px;
 }
+.testimonial-area .testimonial-container .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #0C0D0E;
+}
+.testimonial-area .testimonial-container .swiper-pagination-bullet:active {
+  background-color: #171717;
+}
 .testimonial-area .testimonial-container .testimonial-item {
+  width: 700px;
   box-shadow: 0px 20px 50px 0px rgba(23, 23, 23, 0.0784313725);
   border-radius: 15px;
   background-color: #ffffff;
@@ -375,6 +384,87 @@ picture {
   line-height: 20px;
   color: #EC595A;
   margin-top: 20px;
+}
+
+.price-plan-area .price-box {
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.0509803922);
+  border-radius: 15px;
+}
+.price-plan-area .price-plan-item .price-plan-content {
+  margin-bottom: 65px;
+  width: 70%;
+}
+.price-plan-area .price-plan-item .price-plan-content .price-subtitle {
+  font-size: 17px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #171717;
+}
+.price-plan-area .price-plan-item .price-plan-content .price-title {
+  font-size: 50px;
+  line-height: 62px;
+  margin-bottom: 5px;
+  color: #EC595A;
+  text-transform: uppercase;
+}
+.price-plan-area .price-plan-item .price-plan-content .price-title span {
+  display: inline-block;
+  font-size: 20px;
+  color: #5D5D66;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.price-plan-area .price-plan-item .price-plan-content .price-list {
+  margin-top: 25px;
+}
+.price-plan-area .price-plan-item .price-plan-content .price-list .disabled {
+  color: #848D95;
+}
+.price-plan-area .price-plan-item .price-plan-content .price-list li {
+  padding-bottom: 10px;
+}
+.price-plan-area .price-plan-item .price-plan-content .price-list i {
+  color: #37bd8a;
+  padding-right: 15px;
+}
+.price-plan-area .price-plan-item .btn-price-plan {
+  color: #EC595A;
+  border: 2px solid #EC595A;
+  font-size: 18px;
+  padding: 15px 30px;
+  font-weight: 500;
+}
+.price-plan-area .price-plan-item .btn-price-plan:hover {
+  background-color: #EC595A;
+  color: #ffffff;
+}
+.price-plan-area .price-title {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.price-plan-item {
+  padding: 45px 75px;
+  position: relative;
+}
+.price-plan-item::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 80%;
+  top: 0;
+  right: 0;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #C8CCD0 51.56%, #FFFFFF 100%);
+}
+
+.price-plan-area .price-box .col-lg-4 {
+  padding: 0;
+}
+.price-plan-area .price-box .col-lg-4:last-child .price-plan-item::after {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
