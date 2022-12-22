@@ -5,16 +5,28 @@
             @include heading-2;
         }
         .testimonial-item{
-            background-color: $white;
-            border-radius: 15px;
-            width: 60%;
-            padding: 50px 40px;
             box-shadow: 0px 20px 50px 0px #17171714;
-       
-            .item-text{
-                margin-right: 20px;
-                
+            border-radius: 15px;
+            background-color: $white;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 50px 40px;
+            .testimonial-item-img{
+                width: 30%;
             }
+            .testimonial-item-content{
+                width: 70%;
+                .item-text{
+                    color: $dark-text;
+                    font-style: italic;
+                }
+               .item-title{
+                @include heading-6;
+                color: $primary;
+                margin-top: 20px;
+               } 
+            }
+
         }
     }
 
