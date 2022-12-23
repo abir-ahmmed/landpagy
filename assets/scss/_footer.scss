@@ -1,0 +1,74 @@
+.footer-wedget{
+    .footer-text{
+        color: $black-200;
+        width: 90%;
+    }
+    .footer-title{
+        color: $white;
+        font{
+            width: 600;
+            size: 18px;
+        }
+        line-height: 27px;
+        margin-bottom: 22px;
+    }
+    .footer-menu{
+        li{
+            a{
+                color: $black-200;
+                line-height: 40px;
+                @include transition;
+                &:hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+    .footer-menu-social{
+        li{
+            display: inline-block;
+            margin-right: 15px;
+            a{
+                background: $white;
+                width: 32px;
+                height: 32px;
+                border-radius: 10px;
+                text-align: center;
+                color: $dark-text;
+                @include transition;
+                i{
+                    font-size: 12px;
+                    &:hover{
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.copyright-text{
+    color: $black-200;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.language-list{
+    select{
+        color: $black-200;
+        font-size: 14px;
+        background: transparent;
+    }
+}
+
+.footer-area{
+    position: relative;
+    z-index: 1;
+    .shape{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+}

@@ -105,6 +105,18 @@ picture {
   background-color: #f5f5f7;
 }
 
+.bg-pink {
+  background-color: #FFE2E2;
+}
+
+.b-redius {
+  border-radius: 15px;
+}
+
+.bg-black-800 {
+  background-color: #242729;
+}
+
 .btn-red {
   border-radius: 6px;
   background-color: #EC595A;
@@ -131,6 +143,19 @@ picture {
   border-color: #171717;
   background-color: #171717;
   color: #EC595A;
+}
+
+.btn-black {
+  background-color: #171717;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 19px 35px;
+  border-radius: 5px;
+}
+.btn-black:hover {
+  background-color: #EC595A;
+  color: #171717;
 }
 
 .header-area {
@@ -465,6 +490,89 @@ picture {
 }
 .price-plan-area .price-box .col-lg-4:last-child .price-plan-item::after {
   display: none;
+}
+
+.cta-area {
+  color: #000;
+}
+.cta-area .shape {
+  position: absolute;
+}
+.cta-area .shape:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+.cta-area .shape:nth-child(2) {
+  top: 0;
+  right: 30%;
+}
+.cta-area .shape:nth-child(3) {
+  bottom: 0;
+  right: 40%;
+}
+
+.footer-wedget .footer-text {
+  color: #BBC0C4;
+  width: 90%;
+}
+.footer-wedget .footer-title {
+  color: #ffffff;
+  line-height: 27px;
+  margin-bottom: 22px;
+}
+.footer-wedget .footer-title font {
+  width: 600;
+  size: 18px;
+}
+.footer-wedget .footer-menu li a {
+  color: #BBC0C4;
+  line-height: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.footer-wedget .footer-menu li a:hover {
+  color: #EC595A;
+}
+.footer-wedget .footer-menu-social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.footer-wedget .footer-menu-social li a {
+  background: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  text-align: center;
+  color: #171717;
+  transition: all 0.3s ease-in-out;
+}
+.footer-wedget .footer-menu-social li a i {
+  font-size: 12px;
+}
+.footer-wedget .footer-menu-social li a i:hover {
+  color: #EC595A;
+}
+
+.copyright-text {
+  color: #BBC0C4;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.language-list select {
+  color: #BBC0C4;
+  font-size: 14px;
+  background: transparent;
+}
+
+.footer-area {
+  position: relative;
+  z-index: 1;
+}
+.footer-area .shape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */

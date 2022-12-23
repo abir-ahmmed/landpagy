@@ -1,0 +1,20 @@
+.cta-area{
+    color: #000;
+    .shape{
+        position: absolute;
+        &:nth-child(1){
+            left: 0;
+            top: 0;
+        }
+        &:nth-child(2){
+            top: 0;
+            right: 30%;
+        }
+        &:nth-child(3){
+            bottom: 0;
+            right: 40%;
+        }
+    }
+    
+
+}
