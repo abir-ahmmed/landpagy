@@ -1,6 +1,13 @@
 @media(max-width: 1500px){}
-@media(max-width: 1400px){}
-@media(max-width: 1199px){}
+@media(max-width: 1400px){
+    
+}
+@media(max-width: 1199px){
+    .header-area .container-fluid{
+        margin-left: 15px;
+
+    }
+}
 @media(max-width: 991px){}
 @media(max-width: 767px){}
 @media(max-width: 575px){}

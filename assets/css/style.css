@@ -562,6 +562,7 @@ picture {
   color: #BBC0C4;
   font-size: 14px;
   background: transparent;
+  border: none;
 }
 
 .footer-area {
