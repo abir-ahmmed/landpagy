@@ -244,6 +244,7 @@ picture {
   padding: 50px 40px 46px;
   background: #ffffff;
   border-radius: 10px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
 }
 .service-item img {
@@ -417,7 +418,6 @@ picture {
 }
 .price-plan-area .price-plan-item .price-plan-content {
   margin-bottom: 65px;
-  width: 70%;
 }
 .price-plan-area .price-plan-item .price-plan-content .price-subtitle {
   font-size: 17px;

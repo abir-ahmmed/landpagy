@@ -6,6 +6,7 @@
     padding: 50px 40px 46px;
     background: $white;
     border-radius: 10px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
     @include transition;
     img{
         margin-bottom: 30px;
@@ -19,6 +20,7 @@
         font-size: 15px;
         line-height: 27px;
         margin-bottom: 35px;
+        width: 90%;
     }
 
     .btn{
