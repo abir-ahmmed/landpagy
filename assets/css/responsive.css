@@ -57,6 +57,18 @@
     .service-item-text{
         width: 90%;
     }
+
+    ul.navbar-nav.menu{
+        padding-left: 15px;
+        background-color: #fff;
+    }
+
+    .menu .nav-item + .nav-item {
+        margin-left: 0;
+    }
+    .menu .nav-item {
+        padding: 5px 0;
+    }
     
     
 }

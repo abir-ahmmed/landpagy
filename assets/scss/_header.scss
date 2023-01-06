@@ -27,7 +27,20 @@
             }
         }
         & + .nav-item{
-            margin-left: 60px;
+            margin-left: 30px;
+        }
+    }
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    a{
+        color: $dark-text;
+        span{
+            color:#a0a1a3;
+            padding-right: 30px;
         }
     }
 }

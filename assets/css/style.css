@@ -183,7 +183,20 @@ picture {
   color: #EC595A;
 }
 .menu .nav-item + .nav-item {
-  margin-left: 60px;
+  margin-left: 30px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+}
+.right-nav a {
+  color: #171717;
+}
+.right-nav a span {
+  color: #a0a1a3;
+  padding-right: 30px;
 }
 
 .banner-area {
@@ -259,6 +272,7 @@ picture {
   font-size: 15px;
   line-height: 27px;
   margin-bottom: 35px;
+  width: 90%;
 }
 .service-item .btn {
   color: #EC595A;
