@@ -69,13 +69,35 @@
     .menu .nav-item {
         padding: 5px 0;
     }
-    
+
+    .menu .nav-item .nav-link i {
+        right: 10px;    
+      }
+      .header-area .container-fluid{
+        margin: 0;
+        padding: 15px;
+        background: #fff;
+
+    }
+    .right-nav{
+        margin-left: -11%;
+    }
     
 }
 @media(max-width: 767px){
     .header-area .container-fluid {
         padding-right: 30px;
         padding-left: 30px;
+    }
+    .right-nav{
+        margin-left: -22%;
+    }
+    .testimonial-item-img{
+        width: 100%;
+    }
+    .testimonial-area .testimonial-container .testimonial-item .testimonial-item-img{
+        width: 100%;
+        padding-bottom: 15px;
     }
 }
 @media(max-width: 575px){
@@ -117,6 +139,11 @@
   .feature-text{
     width: 80%;
   }
+
+  .right-nav{
+    margin-left: -24%;
+}
+
     
 }
 @media(max-width: 450px){}

@@ -178,9 +178,33 @@ picture {
   color: #171717;
   font-weight: 500;
   padding: 0;
+  position: relative;
+}
+.menu .nav-item .nav-link::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background-color: #EC595A;
+  height: 1px;
+  width: 0%;
+  transition: width 0.2s linear;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  transition-property: width;
+}
+.menu .nav-item .nav-link:hover::before {
+  width: 100%;
 }
 .menu .nav-item .nav-link:hover, .menu .nav-item .nav-link.active {
   color: #EC595A;
+}
+.menu .nav-item .nav-link i {
+  position: absolute;
+  top: 7px;
+  right: -15px;
+  font-size: 10px;
 }
 .menu .nav-item + .nav-item {
   margin-left: 30px;
