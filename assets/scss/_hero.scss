@@ -1,0 +1,26 @@
+.hero-area{
+    overflow: hidden;
+    padding-top: 210px;
+    padding-bottom: 245px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    .hero-left{     
+        .hero-title{
+            @include heading-1;
+            font-family: $poppins;
+            font-weight: 900;
+        }
+        
+        .hero-text{
+            margin: 35px 0 60px 0;
+            width: 85%;
+            
+        }
+    }
+    .hero-right{
+        
+    }
+}

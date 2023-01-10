@@ -108,7 +108,7 @@ picture{
 }
 
 .bg-pink{
-    background-color: #FFE2E2;
+    background-color: #FBF1E9;
 }
 
 .b-redius{
@@ -117,4 +117,16 @@ picture{
 
 .bg-black-800{
     background-color: $black-800;
+}
+
+.secondary-text{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: $inter;
+    line-height: 32px;
+}
+
+.section-title-center{
+    text-align: center;
+    padding-bottom: rem(45px);
 }

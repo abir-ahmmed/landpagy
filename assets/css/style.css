@@ -106,7 +106,7 @@ picture {
 }
 
 .bg-pink {
-  background-color: #FFE2E2;
+  background-color: #FBF1E9;
 }
 
 .b-redius {
@@ -115,6 +115,18 @@ picture {
 
 .bg-black-800 {
   background-color: #242729;
+}
+
+.secondary-text {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+}
+
+.section-title-center {
+  text-align: center;
+  padding-bottom: rem(45px);
 }
 
 .btn-red {
@@ -164,7 +176,6 @@ picture {
 }
 
 .navbar {
-  padding: 0;
   position: absolute;
   width: 100%;
   left: 0;
@@ -270,6 +281,61 @@ picture {
 }
 .clients-img:hover {
   opacity: 1;
+}
+
+.clients-area-2 .row-item {
+  padding: 0 50px;
+}
+.clients-area-2 .client-slider {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 20px 30px 0px #eee;
+  padding-bottom: 85px;
+  overflow: hidden;
+  margin: 0 20px;
+}
+.clients-area-2 .client-slider .client-slide-item .widget-bottom {
+  padding: 0 40px;
+}
+.clients-area-2 .client-slider .client-slide-item .widget-bottom .client-slide-text {
+  padding: 30px 0;
+}
+.clients-area-2 .client-slider .client-slide-item .widget-bottom .author-info span {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #828282;
+}
+.clients-area-2 h2 {
+  font-size: 40px;
+  line-height: 48px;
+  width: 80%;
+  padding-bottom: 40px;
+}
+.clients-area-2 a {
+  margin-bottom: 50px;
+}
+.clients-area-2 .client-img {
+  padding: 30px 0;
+  opacity: 0.5;
+}
+.clients-area-2 .client-img:hover {
+  opacity: 1;
+}
+.clients-area-2 .client-review {
+  padding-top: 30px;
+}
+.clients-area-2 .client-review .client-review-icon {
+  color: #EFBA34;
+}
+.clients-area-2 .client-review .star-review {
+  padding-left: 14px;
+  padding-right: 10px;
+}
+.clients-area-2 .client-review span {
+  font-weight: 900;
 }
 
 .services-title {
@@ -407,6 +473,50 @@ picture {
 }
 .features-area-2 .features-item .item-content .item-text span {
   color: #EC595A;
+}
+
+.feature-area-3 .feature-box {
+  margin: 0 40px;
+}
+.feature-area-3 .feature-box-content {
+  text-align: center;
+}
+.feature-area-3 .feature-box-content .feature-box-title {
+  font-size: 22px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.feature-area-4 {
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding-bottom: 210px;
+}
+.feature-area-4 .container h2 {
+  font-size: 40px;
+  line-height: 48px;
+  width: 80%;
+}
+.feature-area-4 .container p {
+  padding: 30px 0;
+  width: 75%;
+}
+.feature-area-4 .container .dash-img {
+  position: relative;
+}
+.feature-area-4 .container .dash-img img + img {
+  position: absolute;
+  right: -10%;
+  bottom: -20%;
+  width: 50%;
+}
+.feature-area-4 .container .dash-img .shape {
+  z-index: -1;
 }
 
 .testimonial-area .testimonial-container {
@@ -612,6 +722,27 @@ picture {
   bottom: 0;
   right: 0;
   z-index: -1;
+}
+
+.hero-area {
+  overflow: hidden;
+  padding-top: 210px;
+  padding-bottom: 245px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.hero-area .hero-left .hero-title {
+  font-size: 70px;
+  line-height: 77px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+.hero-area .hero-left .hero-text {
+  margin: 35px 0 60px 0;
+  width: 85%;
 }
 
 /*# sourceMappingURL=style.css.map */

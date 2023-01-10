@@ -15,3 +15,64 @@
         opacity: 1;
     }
 }
+
+.clients-area-2{
+    .row-item{
+        padding: 0 50px;
+    }
+    .client-slider{
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 20px 30px 0px #eee;
+        padding-bottom: 85px;
+        overflow: hidden;
+        margin: 0 20px;
+        .client-slide-item{
+            .widget-bottom{
+                padding: 0 40px;
+                .client-slide-text{
+                    padding: 30px 0;
+                }
+                .author-info{
+                    span {
+                        display: block;
+                        font-family: "Inter", sans-serif;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        color: #828282;
+                      }
+                }
+            }
+        }
+    }
+    
+    h2{
+        @include heading-3;
+        width: 80%;
+        padding-bottom: 40px;
+    }
+    a{
+        margin-bottom: 50px;
+    }
+    .client-img {
+        padding: 30px 0;
+        opacity: .5;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    .client-review {
+        padding-top: 30px;
+        .client-review-icon{
+            color: $gold;
+        }
+        .star-review{
+            padding-left: 14px;
+            padding-right: 10px;
+        }
+        span{
+            font-weight: 900;
+        }
+    }
+}

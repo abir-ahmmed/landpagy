@@ -44,3 +44,13 @@ const swiper = new Swiper('.swiper', {
 
 //     });
 //   }
+
+// Client Area 2 ??
+var swiperClient = new Swiper(".client-slider-2", {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
