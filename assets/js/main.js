@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.testimonial-items', {
   // Default parameters
   //  slidesPerView: 2,
   loop:true,
@@ -45,12 +45,18 @@ const swiper = new Swiper('.swiper', {
 //     });
 //   }
 
-// Client Area 2 ??
-var swiperClient = new Swiper(".client-slider-2", {
+// Client Area 2 
+var swiperClient = new Swiper(".client-slider", {
   slidesPerView: 1,
   spaceBetween: 0,
   loop: true,
   pagination: {
     el: ".swiper-pagination",
   },
+});
+
+// Dropdown
+
+$('.dropdown').hover(function(){ 
+  $('.dropdown-toggle', this).trigger('click'); 
 });

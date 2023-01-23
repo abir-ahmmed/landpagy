@@ -7,6 +7,7 @@
     <title>Landpagy</title>
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/css/plugin/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugin/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/plugin/wow.min.css">
     <link rel="stylesheet" href="assets/css/plugin/swiper_8.4.5.css">
@@ -26,36 +27,32 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home 
+            </a>
+              <ul class="dropdown-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Demo-1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index-2.html">Demo-2</a>
+                </li>
+              </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
               Features
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item dropdown" href="#">Product</a></li>
-              <li><a class="dropdown-item dropdown-toggle" href="#">
-                Services
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Product</a></li>
-                  <li><a class="dropdown-item" href="#">Services</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Contact</a></li>
-                </ul>
-              </a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Contact</a></li>
-            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+            <a class="nav-link " href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            <a class="nav-link " href="#">Contact</a>
           </li>
         </ul>
         <div class="right-nav">
@@ -96,11 +93,25 @@
   <section class="clients-area-2 pt-150">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 row-item">
-          
-          <div class="client-slider-2 swiper">
+        <div class="col-lg-6 row-item">       
+          <div class="client-slider swiper">
             <div class="swiper-wrapper">
-              <div class="client-slide-item swiper-slide">
+              <div class="client-slide-items swiper-slide">
+                <div class="widget-top">
+                  <a class="play-btn" data-fancybox href="https://www.youtube.com/watch?v=xcJtL7QggTI"><i class="fa-solid fa-play"></i></a>
+                </div>
+                <div class="widget-bottom">
+                  <div class="smile-icon">
+                    <img src="assets/img/icon/smile icon.png" alt="">
+                  </div>
+                  <p class="client-slide-text secondary-text">I’m not sure how i would be able to do support - at Bhumi or any whare else - without Help Landpaggy.</p>
+                  <div class="author-info">
+                    <span>Justin Press</span>
+                    <span>UI Designer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="client-slide-items swiper-slide">
                 <div class="widget-top">
                   <a class="play-btn" href="https://www.youtube.com/watch?v=xcJtL7QggTI"><i class="fa-solid fa-circle-play"></i></a>
                 </div>
@@ -115,24 +126,9 @@
                   </div>
                 </div>
               </div>
-              <div class="client-slide-item swiper-slide">
+              <div class="client-slide-items swiper-slide">
                 <div class="widget-top">
-                  <a class="play-btn" href="https://www.youtube.com/watch?v=xcJtL7QggTI"><i class="fa-solid fa-circle-play"></i></a>
-                </div>
-                <div class="widget-bottom">
-                  <div class="smile-icon">
-                    <img src="assets/img/icon/smile icon.png" alt="">
-                  </div>
-                  <p class="client-slide-text secondary-text">I’m not sure how i would be able to do support - at Bhumi or any whare else - without Help Landpaggy.</p>
-                  <div class="author-info">
-                    <span>Justin Press</span>
-                    <span>UI Designer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="client-slide-item swiper-slide">
-                <div class="widget-top">
-                  <a class="play-btn" href="https://www.youtube.com/watch?v=xcJtL7QggTI"><i class="fa-solid fa-circle-play"></i></a>
+                  <a class="play-btn" data-fancybox href="https://www.youtube.com/watch?v=xcJtL7QggTI"><i class="fa-solid fa-circle-play"></i></a>
                 </div>
                 <div class="widget-bottom">
                   <div class="smile-icon">
@@ -288,13 +284,13 @@
 
 </main>
 <!-- ========== FOOTER AREA ========== -->
-
 <!-- ========== FOOTER AREA ========== -->
 
     <!-- JS -->
     <script src="assets/js/plugin/jqueryv3.6.1.js"></script>
     <script src="assets/js/plugin/popperv2.11.6.js"></script>
     <script src="assets/js/plugin/bootstrap.min.js"></script>
+    <script src="assets/js/plugin/jquery.fancybox.min.js"></script>
     <script src="assets/js/plugin/fontawesome.min.js"></script>
     <script src="assets/js/plugin/swiper_8.4.5.js"></script>
     <script src="assets/js/plugin/wow.js"></script>

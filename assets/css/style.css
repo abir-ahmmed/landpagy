@@ -129,6 +129,10 @@ picture {
   padding-bottom: rem(45px);
 }
 
+.fancybox-container {
+  z-index: 9999999;
+}
+
 .btn-red {
   border-radius: 6px;
   background-color: #EC595A;
@@ -204,6 +208,9 @@ picture {
   transition-timing-function: linear;
   transition-delay: 0s;
   transition-property: width;
+}
+.menu .nav-item .nav-link.dropdown-toggle::after {
+  display: none;
 }
 .menu .nav-item .nav-link:hover::before {
   width: 100%;
@@ -294,13 +301,43 @@ picture {
   overflow: hidden;
   margin: 0 20px;
 }
-.clients-area-2 .client-slider .client-slide-item .widget-bottom {
+.clients-area-2 .client-slider .client-slide-items .widget-top {
+  margin-bottom: 30px;
+  position: relative;
+  width: 100%;
+  height: 390px;
+  background-image: url(../img/smile.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.clients-area-2 .client-slider .client-slide-items .widget-top a.play-btn {
+  width: 70px;
+  height: 70px;
+  background: red;
+  border-radius: 50%;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.clients-area-2 .client-slider .client-slide-items .widget-top a.play-btn i.fa-solid.fa-play {
+  top: 30%;
+  position: absolute;
+  left: 40%;
+}
+.clients-area-2 .client-slider .client-slide-items .widget-bottom {
   padding: 0 40px;
 }
-.clients-area-2 .client-slider .client-slide-item .widget-bottom .client-slide-text {
+.clients-area-2 .client-slider .client-slide-items .widget-bottom .client-slide-text {
   padding: 30px 0;
 }
-.clients-area-2 .client-slider .client-slide-item .widget-bottom .author-info span {
+.clients-area-2 .client-slider .client-slide-items .widget-bottom .author-info span {
   display: block;
   font-family: "Inter", sans-serif;
   font-size: 14px;
