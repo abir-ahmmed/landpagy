@@ -73,3 +73,30 @@
         z-index: -1;
     }
 }
+.footer-area-2{
+    .footer-top{
+        p{
+            color: #616161;
+        }
+        a{
+            color: #616161;
+        }
+    }
+
+    .footer-copyright{
+        font-size: 14px;
+       P{
+        color: #8D8D8D;
+       }
+       a{
+        color: #8D8D8D;
+        &:hover{
+            color: $primary;
+        }
+       }
+       a.active{
+        color: $primary
+       }
+
+    }
+}
