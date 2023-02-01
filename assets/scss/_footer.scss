@@ -75,11 +75,45 @@
 }
 .footer-area-2{
     .footer-top{
-        p{
-            color: #616161;
-        }
-        a{
-            color: #616161;
+        .footer-wedget{
+
+            h5{
+                color: #171717;
+            }
+            p{
+                color: #616161;
+            }
+            a{
+                color: #616161;
+            }
+
+            .footer-menu-social{
+                li{
+                    display: inline-block;
+                    margin-right: 15px;
+                    a{
+                        background: transparent;
+                        width: 32px;
+                        height: 32px;
+                        border: 1px solid #171717;
+                        border-radius: 10px;
+                        text-align: center;
+                        color: $dark-text;
+                        @include transition;
+                        &:hover{
+                            border: none;
+                            background-color: $primary;
+                            color: $white;
+                        }
+                        i{
+                            font-size: 12px;
+                            &:hover{
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 

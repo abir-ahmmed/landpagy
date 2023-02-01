@@ -1,4 +1,4 @@
-.mt-10 {
+  .mt-10 {
     margin-top: 10px;
   }
   .mt-15 {
@@ -398,6 +398,10 @@
     padding-top: 215px;
   }
   
+  .pt-325 {
+    padding-top: 325px;
+  }
+  
   .pb-10 {
     padding-bottom: 10px;
   }
@@ -511,6 +515,10 @@
   }
   .pb-200 {
     padding-bottom: 200px;
+  }
+
+  .pb-250{
+    padding-bottom: 250px;
   }
   
   .pr-10 {

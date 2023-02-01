@@ -109,6 +109,10 @@ picture {
   background-color: #FBF1E9;
 }
 
+.bg-tan {
+  background-color: #FAEFE7;
+}
+
 .b-redius {
   border-radius: 15px;
 }
@@ -702,6 +706,50 @@ picture {
   right: 40%;
 }
 
+.cta-area-2 {
+  position: absolute;
+  margin-top: -120px;
+  left: 0;
+  right: 0;
+}
+.cta-area-2 .cta-box {
+  position: relative;
+  border-radius: 10px;
+  color: #fff;
+}
+.cta-area-2 .cta-box h3 {
+  color: #fff;
+  font-size: 40px;
+}
+.cta-area-2 .cta-box p {
+  opacity: 80%;
+  width: 80%;
+}
+.cta-area-2 .cta-box .shape {
+  position: absolute;
+}
+.cta-area-2 .cta-box .shape:nth-child(1) {
+  left: 0;
+  bottom: 0;
+}
+.cta-area-2 .cta-box .shape:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+.cta-area-2 .cta-box .shape:nth-child(3) {
+  bottom: 0;
+  right: 40%;
+}
+.cta-area-2 .cta-box .btn {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.cta-area-2 .cta-box .btn:hover {
+  background-color: #EC595A;
+}
+
 .footer-wedget .footer-text {
   color: #BBC0C4;
   width: 90%;
@@ -767,11 +815,39 @@ picture {
   z-index: -1;
 }
 
-.footer-area-2 .footer-top p {
+.footer-area-2 .footer-top .footer-wedget h5 {
+  color: #171717;
+}
+.footer-area-2 .footer-top .footer-wedget p {
   color: #616161;
 }
-.footer-area-2 .footer-top a {
+.footer-area-2 .footer-top .footer-wedget a {
   color: #616161;
+}
+.footer-area-2 .footer-top .footer-wedget .footer-menu-social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.footer-area-2 .footer-top .footer-wedget .footer-menu-social li a {
+  background: transparent;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #171717;
+  border-radius: 10px;
+  text-align: center;
+  color: #171717;
+  transition: all 0.3s ease-in-out;
+}
+.footer-area-2 .footer-top .footer-wedget .footer-menu-social li a:hover {
+  border: none;
+  background-color: #EC595A;
+  color: #ffffff;
+}
+.footer-area-2 .footer-top .footer-wedget .footer-menu-social li a i {
+  font-size: 12px;
+}
+.footer-area-2 .footer-top .footer-wedget .footer-menu-social li a i:hover {
+  color: #ffffff;
 }
 .footer-area-2 .footer-copyright {
   font-size: 14px;

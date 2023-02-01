@@ -18,3 +18,52 @@
     
 
 }
+
+.cta-area-2{
+    position: absolute;
+    margin-top: -120px;
+    left: 0;
+    right: 0;
+    .cta-box{
+        position: relative;
+        border-radius: 10px;
+        color: #fff;
+        h3{
+            color: #fff;
+            font-size: 40px;
+        }
+
+        p{
+            opacity: 80%;
+            width: 80%;
+        }
+
+        .shape{
+            position: absolute;
+            &:nth-child(1){
+                left: 0;
+                bottom: 0;
+            }
+            &:nth-child(2){
+                top: 0;
+                right: 0;
+            }
+            &:nth-child(3){
+                bottom: 0;
+                right: 40%;
+            }
+        }
+
+        .btn{
+            background-color: $white;
+            padding: 20px 30px;
+            font-weight: 500;
+            font-size: 20px;
+            &:hover{
+                background-color: $primary;
+            }
+        }
+    }
+    
+
+}
