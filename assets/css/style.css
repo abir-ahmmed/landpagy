@@ -566,22 +566,22 @@ picture {
   z-index: -1;
 }
 
-.testimonial-area .testimonial-container {
+.testimonial-area-1 .testimonial-container {
   max-width: 1420px;
 }
-.testimonial-area .testimonial-container .testimonial-title {
+.testimonial-area-1 .testimonial-container .testimonial-title {
   font-size: 50px;
   line-height: 62px;
 }
-.testimonial-area .testimonial-container .swiper-pagination-bullet {
+.testimonial-area-1 .testimonial-container .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   background-color: #0C0D0E;
 }
-.testimonial-area .testimonial-container .swiper-pagination-bullet:active {
+.testimonial-area-1 .testimonial-container .swiper-pagination-bullet:active {
   background-color: #171717;
 }
-.testimonial-area .testimonial-container .testimonial-item {
+.testimonial-area-1 .testimonial-container .testimonial-item {
   width: 700px;
   box-shadow: 0px 20px 50px 0px rgba(23, 23, 23, 0.0784313725);
   border-radius: 15px;
@@ -590,23 +590,22 @@ picture {
   flex-wrap: wrap;
   padding: 50px 40px;
 }
-.testimonial-area .testimonial-container .testimonial-item .testimonial-item-img {
+.testimonial-area-1 .testimonial-container .testimonial-item .testimonial-item-img {
   width: 30%;
 }
-.testimonial-area .testimonial-container .testimonial-item .testimonial-item-content {
+.testimonial-area-1 .testimonial-container .testimonial-item .testimonial-item-content {
   width: 70%;
 }
-.testimonial-area .testimonial-container .testimonial-item .testimonial-item-content .item-text {
+.testimonial-area-1 .testimonial-container .testimonial-item .testimonial-item-content .item-text {
   color: #171717;
   font-style: italic;
 }
-.testimonial-area .testimonial-container .testimonial-item .testimonial-item-content .item-title {
+.testimonial-area-1 .testimonial-container .testimonial-item .testimonial-item-content .item-title {
   font-size: 15px;
   line-height: 20px;
   color: #EC595A;
   margin-top: 20px;
 }
-
 .price-plan-area .price-box {
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.0509803922);
   border-radius: 15px;

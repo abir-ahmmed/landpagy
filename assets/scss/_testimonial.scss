@@ -1,42 +1,53 @@
-.testimonial-area{
-    .testimonial-container{
-        max-width: 1420px;
-        .testimonial-title{
-            @include heading-2;
-        }
-        .swiper-pagination-bullet{
-            width: 10px;
-            height: 10px;
-            background-color: $black-900;
-            &:active{
-                background-color: $dark-text;
-            }
-        }
-        .testimonial-item{
-            width: 700px;
-            box-shadow: 0px 20px 50px 0px #17171714;
-            border-radius: 15px;
-            background-color: $white;
-            display: flex;
-            flex-wrap: wrap;
-            padding: 50px 40px;
-            .testimonial-item-img{
-                width: 30%;
-            }
-            .testimonial-item-content{
-                width: 70%;
-                .item-text{
-                    color: $dark-text;
-                    font-style: italic;
+.testimonial{
+    &-area{
+        &-1{
+            
+            .testimonial-container{
+                max-width: 1420px;
+                .testimonial-title{
+                    @include heading-2;
                 }
-               .item-title{
-                @include heading-6;
-                color: $primary;
-                margin-top: 20px;
-               } 
+                .swiper-pagination-bullet{
+                    width: 10px;
+                    height: 10px;
+                    background-color: $black-900;
+                    &:active{
+                        background-color: $dark-text;
+                    }
+                }
+                .testimonial-item{
+                    width: 700px;
+                    box-shadow: 0px 20px 50px 0px #17171714;
+                    border-radius: 15px;
+                    background-color: $white;
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 50px 40px;
+                    .testimonial-item-img{
+                        width: 30%;
+                    }
+                    .testimonial-item-content{
+                        width: 70%;
+                        .item-text{
+                            color: $dark-text;
+                            font-style: italic;
+                        }
+                       .item-title{
+                        @include heading-6;
+                        color: $primary;
+                        margin-top: 20px;
+                       } 
+                    }
+            
+                }
             }
-
+        }
+        &-2{
+            
         }
     }
+
+    
+
 
 }
