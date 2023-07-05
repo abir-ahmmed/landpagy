@@ -100,8 +100,13 @@
         padding-bottom: 15px;
     }
 
+    .testimonial-area-1{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .billing-testimonial{
-        margin: 15px;
+        margin: 15px !important;
         
     }
 
