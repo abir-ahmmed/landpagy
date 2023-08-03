@@ -60,3 +60,5 @@ var swiperClient = new Swiper(".client-slider", {
 $('.dropdown').hover(function(){ 
   $('.dropdown-toggle', this).trigger('click'); 
 });
+
+// WoW

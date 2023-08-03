@@ -105,6 +105,10 @@
         padding-right: 15px;
     }
 
+    .testimonial-item-content{
+        width: 100%;
+    }
+
     .billing-testimonial{
         margin: 15px !important;
         
