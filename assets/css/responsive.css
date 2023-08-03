@@ -82,6 +82,21 @@
     .right-nav{
         margin-left: -11%;
     }
+
+    .client-title{
+        margin-top: 40px;
+    }
+
+    .cta-box.bg-black.pt-70.pb-70 {
+        text-align: center;
+        padding-left: 10px;
+      }
+
+      .footer-menu-social.pt-30 {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+      }
     
 }
 @media(max-width: 767px){
